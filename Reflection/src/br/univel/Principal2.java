@@ -51,7 +51,6 @@ public class Principal2 {
 			sb.append(");");
 			
 			System.out.println(sb);
-
 			
 		}
 	}
