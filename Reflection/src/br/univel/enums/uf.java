@@ -12,4 +12,12 @@ public enum uf {
 		this.id = _id;
 		this.nome = _nome;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
 }

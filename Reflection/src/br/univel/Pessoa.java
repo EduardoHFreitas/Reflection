@@ -2,6 +2,7 @@ package br.univel;
 
 import br.univel.anotation.Tabela;
 import br.univel.enums.EstadoCivil;
+import br.univel.enums.uf;
 
 @Tabela("cad_pessoa")
 public class Pessoa {
@@ -10,6 +11,7 @@ public class Pessoa {
 	private int id;
 	private String nome;
 	private EstadoCivil estadoCivil;
+	private uf Uf;
 	
 	public int getId() {
 		return id;
@@ -34,4 +36,13 @@ public class Pessoa {
 	public void setEstadoCivil(EstadoCivil estadoCivil) {
 		this.estadoCivil = estadoCivil;
 	}
+
+	public uf getUf() {
+		return Uf;
+	}
+	
+	public void setUf(uf uf) {
+		Uf = uf;
+	}
 }
+
