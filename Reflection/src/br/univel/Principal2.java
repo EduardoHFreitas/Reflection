@@ -5,6 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import br.univel.anotation.Tabela;
+import br.univel.enums.EstadoCivil;
 
 public class Principal2 {
 	public Principal2(Object obj) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
@@ -59,6 +60,7 @@ public class Principal2 {
 		
 		p.setId(1);
 		p.setNome("ABC");
+		p.setEstadoCivil(EstadoCivil.SOLTEIRO);
 		
 		try {
 			new Principal2(p);
